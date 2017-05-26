@@ -3,15 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ENCUÉNTRAME</title>
+    <title></title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/master.css">
-    <link rel="stylesheet" href="/css/master.css">
   </head>
   <body>
+    <div class="container">
+      <div class="form-group row">
+        <div class="col-md-4">
+          <input type="text" class="form-control" id="punto-partida" placeholder="Ingresa tu punto de partida">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" id="punto-destino" placeholder="Ingresa tu destino">
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-default" id="trazar-ruta">Trazar ruta</button>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="btn btn-default" id="encuentrame">Encuéntrame</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="" id="map">
+
+    </div>
+
+
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByS7hS8jaa5WLbHvhPtPGMUMuABoWLoOI&callback=initMap&libraries=places">
     </script>
-    <script type="text/javascript src=assets/js/app.js">
-    </script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
   </body>
 </html>

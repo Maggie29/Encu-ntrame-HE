@@ -1,0 +1,19 @@
+
+body{
+  background-color: #f7b617;
+
+  }
+#map{
+  width: 100%;
+  height: 100vh;
+}
+.container .form-group{
+  margin-top: 15px;
+}
+#punto-partida, #punto-destino{
+  background-color: #f7b617;
+  border-color: white;
+}
+input::-webkit-input-placeholder{
+  color: white;
+}
